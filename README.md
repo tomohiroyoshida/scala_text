@@ -1,3 +1,3 @@
-##### This is a repo for learning scala-text.
+##### This is a repo for learning scala_text.
 
-##### https://scala-text.github.io/scala_text/error-handling.html
+##### https://scala-text.github.io/scala_text/
