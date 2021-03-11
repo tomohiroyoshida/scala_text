@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/tomo/Desktop/projects/scala/sandbox/ErrorHandling.scala:4:12: adapted the argument list to the expected 3-tuple: add additional parens instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m        signature: Predef.println(x: Any): Unit[0m
+[0m[[0m[33mwarn[0m] [0m[0m  given arguments: o.get, o.isEmpty, o.isDefined[0m
+[0m[[0m[33mwarn[0m] [0m[0m after adaptation: Predef.println((o.get, o.isEmpty, o.isDefined): (String, Boolean, Boolean))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    println(o.get, o.isEmpty, o.isDefined)[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
