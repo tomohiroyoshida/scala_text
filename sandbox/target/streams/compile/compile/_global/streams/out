@@ -4,4 +4,10 @@
 [0m[[0m[33mwarn[0m] [0m[0m after adaptation: Predef.println((o.get, o.isEmpty, o.isDefined): (String, Boolean, Boolean))[0m
 [0m[[0m[33mwarn[0m] [0m[0m    println(o.get, o.isEmpty, o.isDefined)[0m
 [0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/tomo/Desktop/projects/scala/sandbox/ErrorHandling.scala:18:9: local val v01 in method main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val v01: Either[String, Int] = Right(123)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/tomo/Desktop/projects/scala/sandbox/ErrorHandling.scala:28:11: local val v in method main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val v: Try[Int] = Try(throw new RuntimeException("to be caught"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

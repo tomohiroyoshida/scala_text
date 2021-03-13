@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(945fd8a3-f865-4644-ac5c-0221c8cc8886), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(cebaa201-c201-42e1-9e87-4fa50b9b1435), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/tomo/Desktop/projects/scala/sandbox/target/scala-2.13/classes ...[0m
@@ -8,7 +8,10 @@
 [0m[[0m[33mwarn[0m] [0m[0m after adaptation: Predef.println((o.get, o.isEmpty, o.isDefined): (String, Boolean, Boolean))[0m
 [0m[[0m[33mwarn[0m] [0m[0m    println(o.get, o.isEmpty, o.isDefined)[0m
 [0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 2021/03/11 22:31:48[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/tomo/Desktop/projects/scala/sandbox/ErrorHandling.scala:16:9: local val v01 in method main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val v01: Either[String, Int] = Right(123)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 2021/03/13 13:22:04[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
