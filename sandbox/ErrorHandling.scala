@@ -12,7 +12,7 @@ object ErrorHandling {
     println(for {
         i1 <- v1
         i2 <- v2
-        i3 <- v3 
+        i3 <- v3
     } yield i1 * i2 * i3)
 
     val v01: Either[String, Int] = Right(123)
